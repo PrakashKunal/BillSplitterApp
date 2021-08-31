@@ -1,0 +1,52 @@
+body
+{
+    font-family:'Space Mono' , monospace ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 41%, 84%);
+    background-size: contain;
+    font-size: 24px;
+}
+#logocontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    background-color:hsl(189, 41%, 97%) ;
+    box-sizing: border-box;
+    min-height: 50vh;
+}
+div
+{
+    display: flex;
+    
+}
+p{
+    margin-top: -2rem;
+}
+#btncontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+button
+{
+    padding:0.5rem 1rem;
+    margin: 0.3rem;
+}
+section
+{
+    min-width: 30%;
+}
+#custombtn
+{
+    padding:0.1rem 0.5rem ;
+}

@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>BillSplitterApp</title>
 </head>
 <body>
+        <div id="logocontainer">
         <img src="images/logo.svg">
+        </div>
         <main>
         <section id="inputcontainer">
             <h2>Bill</h2>
@@ -19,13 +22,13 @@
                 <span id="InputTxt">0</span>
             </div>
             <h3>Select Tip %</h3>
-            <div>
-                <button>5%</button>
+            <div id="btncontainer">
+                <button>05%</button>
                 <button>10%</button>
                 <button>15%</button>
                 <button>25%</button>
                 <button>50%</button>
-                <button>Custom</button>
+                <button id="custombtn">Custom</button>
             </div>
             <h3>Number of People</h3>
             <div>
