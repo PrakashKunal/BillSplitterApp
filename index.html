@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <title>BillSplitterApp</title>
+</head>
+<body>
+        <img src="images/logo.svg">
+        <main>
+        <section id="inputcontainer">
+            <h2>Bill</h2>
+            <div id="input">
+                <img src="images/icon-dollar.svg">
+                <span id="InputTxt">0</span>
+            </div>
+            <h3>Select Tip %</h3>
+            <div>
+                <button>5%</button>
+                <button>10%</button>
+                <button>15%</button>
+                <button>25%</button>
+                <button>50%</button>
+                <button>Custom</button>
+            </div>
+            <h3>Number of People</h3>
+            <div>
+                <img src="images/icon-person.svg">
+                <span id="Outputtxt">0</span>
+            </div>
+        </section>
+        <section id="outputcontainer">
+            <article>
+            <div>
+                <span>
+                    <h3>Tip Amount</h3>
+                    <p>/person</p>
+                </span>
+            </div>
+            <div>
+                <img src="images/icon-dollar.svg">
+                <span>0.00</span>
+            </div>
+            </article>
+            <article>
+                <div>
+                    <span>
+                        <h3>Total</h3>
+                        <p>/person</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="images/icon-dollar.svg">
+                    <span>0.00</span>
+                </div>
+                </article>
+                <button id="resetbtn">RESET</button>
+        </section>
+    </main>
+</body>
+</html>
