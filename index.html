@@ -19,21 +19,22 @@
             <h2>Bill</h2>
             <div id="input">
                 <img src="images/icon-dollar.svg">
-                <span id="InputTxt">0</span>
+                <input id="bill" type="text" placeholder="0">
             </div>
             <h3>Select Tip %</h3>
             <div id="btncontainer">
-                <button>05%</button>
-                <button>10%</button>
-                <button>15%</button>
-                <button>25%</button>
-                <button>50%</button>
-                <button id="custombtn">Custom</button>
+                <button id="fiveper">05%</button>
+                <button id="tenper">10%</button>
+                <button id="fifteenper">15%</button>
+                <button id="twentyfiveper">25%</button>
+                <button id="fiftyper">50%</button>
+                <button id="custombtn"><input id="customtip" type="text" placeholder="Custom"></button>
             </div>
             <h3>Number of People</h3>
+            <p id="errdis"></p>
             <div>
                 <img src="images/icon-person.svg">
-                <span id="Outputtxt">0</span>
+                <input type="text" placeholder="0" id="nom">
             </div>
         </section>
         <section id="outputcontainer">
@@ -46,7 +47,7 @@
             </div>
             <div>
                 <img src="images/icon-dollar.svg">
-                <span>0.00</span>
+                <span id="tippp">0.00</span>
             </div>
             </article>
             <article>
@@ -58,11 +59,12 @@
                 </div>
                 <div>
                     <img src="images/icon-dollar.svg">
-                    <span>0.00</span>
+                    <span id="totalpp">0.00</span>
                 </div>
                 </article>
                 <button id="resetbtn">RESET</button>
         </section>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>

@@ -49,4 +49,28 @@ section
 #custombtn
 {
     padding:0.1rem 0.5rem ;
+    width: 4rem;
+}
+input
+{
+    text-decoration: none;
+    border: none;
+    background-color: inherit;
+    font-size: 24px;
+}
+#errdis
+{
+    font-size: 16px;
+    max-width: 80%;
+    color: hsl(39, 87%, 56%);
+    line-height: 0.8rem;
+}
+#customtip
+{
+    width: 100%;
+    font-size: 12px;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-weight: 700;
 }
