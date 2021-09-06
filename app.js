@@ -23,6 +23,7 @@ fiveper.addEventListener('click',()=>
     else
     {
         split((bill.value),(nom.value),5);
+        fiveper.style.backgroundColor='hsl('+172+','+ 67+'%,'+ 45+'%)';
     }
 })
 tenper.addEventListener('click',()=>
@@ -34,6 +35,7 @@ tenper.addEventListener('click',()=>
     else
     {
         split((bill.value),(nom.value),10);
+        tenper.style.backgroundColor='hsl('+172+','+ 67+'%,'+ 45+'%)';
     }
 })
 fifteenper.addEventListener('click',()=>
@@ -45,6 +47,7 @@ fifteenper.addEventListener('click',()=>
     else
     {
         split((bill.value),(nom.value),15);
+        fifteenper.style.backgroundColor='hsl('+172+','+ 67+'%,'+ 45+'%)';
     }
 })
 twentyfiveper.addEventListener('click',()=>
@@ -56,6 +59,7 @@ twentyfiveper.addEventListener('click',()=>
     else
     {
         split((bill.value),(nom.value),25);
+        twentyfiveper.style.backgroundColor='hsl('+172+','+ 67+'%,'+ 45+'%)';
     }
 })
 fiftyper.addEventListener('click',()=>
@@ -67,6 +71,7 @@ fiftyper.addEventListener('click',()=>
     else
     {
         split((bill.value),(nom.value),50);
+        fiftyper.style.backgroundColor='hsl('+172+','+ 67+'%,'+ 45+'%)';
     }
 })
 custombtn.addEventListener('click',()=>
@@ -82,10 +87,11 @@ custombtn.addEventListener('click',()=>
 })
 resetbtn.addEventListener('click',()=>
 {
+    errdis.innerText="";
     bill.value="";
     nom.value="";
     custombtn.value="";
-    tippp.innerText="0.00";
-    totalpp.innerText="0.00";
-
+    tippp.innerText="$0.00";
+    totalpp.innerText="$0.00";
+    fiveper.style.backgroundColor=tenper.style.backgroundColor=fifteenper.style.backgroundColor=twentyfiveper.style.backgroundColor=fiftyper.style.backgroundColor='hsl('+183+','+ 100+'%,'+ 15+'%)';
 })
